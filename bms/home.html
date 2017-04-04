@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>E-Banking</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <style>
+  #avl{float:right;}
+  #acn{float:center; margin-left:30%; margin-right:20%;}
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="logo.png" height="30px" width="20%"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!----body part-->
+<div class="container">
+	<div class="row">
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+			
+			<ul class="list-inline">
+			
+			<li><p>Welcome : User</p></li>
+			<li id="acn"><p> Account Number:834658468568</p></li>
+			<li id="avl"><p> Avl blc: 2500 /-</p></li>
+			</ul>
+			
+			</div>
+			<div class="panel-body">
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#my_account" title="User Login">My Account</a></li>
+					<li><a data-toggle="tab" href="#pay_trans" title="Create Account">Payments/Transfers</a></li>
+					<li><a data-toggle="tab" href="#enq" title="admin login">Enquiries</a></li>
+					<li><a data-toggle="tab" href="#profile" title="Create Account">Profile</a></li>
+					<li><a data-toggle="tab" href="#e_services" title="admin login">e-Services</a></li>
+					
+					
+				</ul>
+				
+				
+				<div class="tab-content">
+<!-- content for home -->
+					<div id="my_account" class="tab-pane fade in active">
+					<hr>
+					<div class="table-responsive">
+					<table class="table">
+					<thead>
+						<tr>
+							<th>Account No/ Nick Name</th>
+							<th>Branch</th>
+							<th>Available Balance</th>
+							<th>Transactions</th>
+						</tr>
+						
+						
+					<tbody>
+						<tr>
+							<td>732647232537</td>
+							<td>KIIT</td>
+							<td>263864</td>
+							<td>click to view 5 transactios</td>
+						</tr>
+					</tbody>
+					</thead>
+					</table>
+					</div>
+					
+					
+					
+					
+					
+						
+					</div>
+<!-- content for pay_trans tab-->
+					<div id="pay_trans" class="tab-pane fade">
+					
+					
+					
+					
+					<div class="table-responsive">
+					<table class="table  ">
+					
+					  <tr>
+						
+						<th colspan="2">Fund Transfers</th>
+					  </tr>
+					  <tr>
+						<td colspan="2"><b>Within KIIT</b></td>
+						<td colspan="4"><b>Outside KIIT</b></td>
+						
+					  </tr>
+					  
+					  <tr>
+					  <td><a href="#">Own Account</a></td>
+					  <td><a href="#">Accounts of Others</a></td> 
+					  <td><a href="#">Inter-Bank Beneficiary</a></td> 
+					  <td><a href="#">Credit Card (VISA) Beneficiary</a></td>
+					  <td><a href="#">International Funds Transfer</a></td> 
+					  <td><a href="#">IMPS Funds Transfer</a></td>
+					  </tr>
+					</table>
+					</table>
+					</div>
+					</div>
+<!-- content for enqueries tab -->
+
+					<div id="enq" class="tab-pane fade">
+						<hr>
+						<p>Some content in menu 1.</p>
+					</div>
+					
+<!-- content for Profile tab -->
+
+					<div id="profile" class="tab-pane fade">
+					<hr>
+						<p>Some content in menu 1.</p>
+					</div>
+
+<!-- content for E-Services tab-->
+					<div id="e_services" class="tab-pane fade">
+					<hr>
+						<p>Some content in menu 2.</p>
+					</div>
+				</div>
+		
+			
+			</div>
+		</div>
+	</div>
+  
+</div>
+<hr>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
